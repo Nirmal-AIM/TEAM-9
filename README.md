@@ -1,6 +1,6 @@
 #  CredFlow
 
-## A Human-Centered, Explainable Credit Intelligence Platform
+## An Explainable Credit Intelligence Platform
 
 ---
 
