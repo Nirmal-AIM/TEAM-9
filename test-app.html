@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Credit Score Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        .test-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .success { color: green; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Credit Score Website - Diagnostic Test</h1>
+    
+    <div class="test-box">
+        <h2>Server Status</h2>
+        <p>If you can see this page, the server is working!</p>
+        <p class="success">✅ Server is running</p>
+    </div>
+
+    <div class="test-box">
+        <h2>Next Steps</h2>
+        <ol>
+            <li>Go to: <strong>http://localhost:5173/</strong></li>
+            <li>Press <strong>F12</strong> to open browser console</li>
+            <li>Look for any red error messages</li>
+            <li>Check if the page loads (you should see navbar and cards)</li>
+        </ol>
+    </div>
+
+    <div class="test-box">
+        <h2>If Page is Blank</h2>
+        <p>Open browser console (F12) and check for errors:</p>
+        <ul>
+            <li>Red error messages = JavaScript errors</li>
+            <li>404 errors = Missing files</li>
+            <li>Network errors = Connection issues</li>
+        </ul>
+    </div>
+
+    <div class="test-box">
+        <h2>Quick Commands</h2>
+        <pre>
+# Stop server (in terminal)
+Ctrl + C
+
+# Restart server
+npm run dev
+
+# Check if port is in use
+netstat -ano | findstr :5173
+        </pre>
+    </div>
+</body>
+</html>
+
