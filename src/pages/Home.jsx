@@ -10,7 +10,7 @@ const Home = () => {
         {/* Welcome Section */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Welcome to <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">CreditScore AI</span>
+            Welcome to <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">WebFlow AI</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Advanced credit analysis and document verification powered by artificial intelligence
@@ -19,8 +19,8 @@ const Home = () => {
 
         {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          {/* Credit Score Card */}
-          <CreditScoreCard />
+          {/* Credit Score Card - Input Mode */}
+          <CreditScoreCard isDashboard={false} />
 
           {/* Document Scanner Card */}
           <DocumentScannerCard />

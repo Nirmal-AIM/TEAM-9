@@ -14,7 +14,7 @@ const Navbar = () => {
             </div>
             <div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-                CreditScore AI
+                WebFlow AI
               </h1>
               <p className="text-xs text-gray-500 hidden sm:block">Financial Intelligence</p>
             </div>

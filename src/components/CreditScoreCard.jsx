@@ -1,13 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useCreditScore } from '../hooks/useCreditScore';
+import { useNavigate } from 'react-router-dom';
 
-const CreditScoreCard = () => {
+const CreditScoreCard = ({ initialUserId, isDashboard = false }) => {
   const { score, loading, error, analysis, fetchUserScore } = useCreditScore();
-  const [userId, setUserId] = useState('');
+  const [userId, setUserId] = useState(initialUserId || '');
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (initialUserId && isDashboard) {
+      fetchUserScore(initialUserId);
+    }
+  }, [initialUserId, isDashboard]);
 
   const handleCheckScore = () => {
     if (userId) {
-      fetchUserScore(userId);
+      if (!isDashboard) {
+        // Redirect to dashboard
+        navigate(`/dashboard?userId=${userId}`);
+      } else {
+        fetchUserScore(userId);
+      }
     }
   };
 
