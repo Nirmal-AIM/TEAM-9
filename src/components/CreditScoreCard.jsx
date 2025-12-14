@@ -22,7 +22,6 @@ const CreditScoreCard = () => {
     <div className="group relative bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden">
       {/* Decorative gradient overlay */}
       <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-full -mr-16 -mt-16 opacity-50 group-hover:opacity-70 transition-opacity"></div>
-
       <div className="relative text-center">
         {/* Header with icon */}
         <div className="flex items-center justify-center mb-6">
