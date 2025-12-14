@@ -1,0 +1,7 @@
+{
+    "credit_score": 580,
+    "credit_bucket": "Poor",
+    "shap_negative_factors": "- High Credit Utilization (85%)\n- Two missed payments in last 6 months\n- Debt-to-Income ratio is 45%",
+    "shap_positive_factors": "- No bankruptcies\n- 5 years of credit history",
+    "document_context": "NOTICE OF ADVERSE ACTION\n\nDear Applicant,\nWe are unable to approve your loan application at this time.\n\nReason(s) for denial:\n- Income verification failed.\n- The requested loan amount exceeds our limits for your credit tier.\n- Policy Section 4.2: Maximum DTI allowed is 40%."
+}

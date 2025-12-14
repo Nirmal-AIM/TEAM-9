@@ -1,0 +1,6 @@
+Policy 1: Minimum credit score requirement is 650. Applicants below this threshold are automatically rejected unless they have a co-signor with a score above 720.
+Policy 2: Debt-to-Income (DTI) ratio must not exceed 40%. Exception: DTI up to 45% is allowed if the applicant has 12 months in cash reserves.
+Policy 3: No recent missed payments (30+ days past due) in the last 12 months.
+Policy 4: Employment history must show at least 2 years of continuous employment in the same industry.
+Policy 5: Bankruptcy must be discharged for at least 4 years.
+Policy 6: Minimum request amount is $5,000; maximum is $50,000 for personal loans.
